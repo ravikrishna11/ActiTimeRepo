@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[webelement is present]]>
+    </line>
+    <line>
+      <![CDATA[webelement is present]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47481" started-at="2018-08-20T15:03:25Z" finished-at="2018-08-20T15:04:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47481" started-at="2018-08-20T15:03:25Z" finished-at="2018-08-20T15:04:12Z">
+      <class name="testScript.TestLogin">
+        <test-method status="PASS" signature="lanuch()[pri:0, instance:testScript.TestLogin@1efef64]" name="lanuch" is-config="true" duration-ms="13388" started-at="2018-08-20T15:03:25Z" finished-at="2018-08-20T15:03:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuch -->
+        <test-method status="PASS" signature="testValidUnPw()[pri:1, instance:testScript.TestLogin@1efef64]" name="testValidUnPw" duration-ms="799" started-at="2018-08-20T15:03:38Z" finished-at="2018-08-20T15:03:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidUnPw -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.TestLogin@1efef64]" name="closeBrowser" is-config="true" duration-ms="716" started-at="2018-08-20T15:03:39Z" finished-at="2018-08-20T15:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lanuch()[pri:0, instance:testScript.TestLogin@1efef64]" name="lanuch" is-config="true" duration-ms="11892" started-at="2018-08-20T15:03:40Z" finished-at="2018-08-20T15:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuch -->
+        <test-method status="PASS" signature="testInvalidun()[pri:2, instance:testScript.TestLogin@1efef64]" name="testInvalidun" duration-ms="3647" started-at="2018-08-20T15:03:51Z" finished-at="2018-08-20T15:03:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[webelement is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidun -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.TestLogin@1efef64]" name="closeBrowser" is-config="true" duration-ms="722" started-at="2018-08-20T15:03:55Z" finished-at="2018-08-20T15:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lanuch()[pri:0, instance:testScript.TestLogin@1efef64]" name="lanuch" is-config="true" duration-ms="11566" started-at="2018-08-20T15:03:56Z" finished-at="2018-08-20T15:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuch -->
+        <test-method status="PASS" signature="Invalidpwd()[pri:3, instance:testScript.TestLogin@1efef64]" name="Invalidpwd" duration-ms="3975" started-at="2018-08-20T15:04:07Z" finished-at="2018-08-20T15:04:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[webelement is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Invalidpwd -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScript.TestLogin@1efef64]" name="closeBrowser" is-config="true" duration-ms="663" started-at="2018-08-20T15:04:11Z" finished-at="2018-08-20T15:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
