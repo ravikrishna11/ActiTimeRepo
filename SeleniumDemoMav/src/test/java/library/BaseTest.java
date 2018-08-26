@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class BaseTest implements Constants {
 	public WebDriver driver;
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void lanuch() {
 		System.setProperty(CHROME_KEY, CHROME_PATH);
 		driver=new ChromeDriver();
@@ -17,7 +17,7 @@ public class BaseTest implements Constants {
 		driver.manage().window().maximize();
 		driver.get(TEST_URL);
 	}
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void closeBrowser() {
 		driver.quit();
 	}
